@@ -1,15 +1,17 @@
 @import "tailwindcss";
 
 @theme {
-  --color-brand-accent: #3b5998;
-  --color-brand-accent2: #8b9dc3;
-  --color-brand-accent3: #dfe3ee;
-  --color-brand-offwhite: #f7f7f7;
+    --color-brand-accent: #3b5998;
+    --color-brand-accent2: #8b9dc3;
+    --color-brand-accent3: #dfe3ee;
+    --color-brand-offwhite: #f7f7f7;
+}
+
+html, body {
+    height: 100%;
 }
 
 .card {
-  border-radius: 10px; 
-  border-color:black;
-  height:10%;
-  width:10%;
+    height: 10vh;
+    width: 10%;
 }
