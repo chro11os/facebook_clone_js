@@ -11,8 +11,21 @@ html, body {
     height: 100%;
 }
 
-.card {
-    height: 10vh;
-    width: 10%;
+@media (max-width: 768px) {
+    .grid-container {
+        display:grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10%;
+    }
 }
 
+.SubmitCard {
+    height: 10vh;
+    width: 10vw;
+}
+
+.FeedCard {
+    height: 20vh;
+    width: 50vw;
+    font-size: 5vh;
+}
