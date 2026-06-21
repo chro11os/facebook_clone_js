@@ -14,14 +14,27 @@ html, body {
 @media (max-width: 768px) {
     .grid-container {
         display:grid;
-        grid-template-columns: repeat(3, 1fr);
-        gap: 10%;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 16px;
     }
 }
 
+.grid-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.grid-item {
+    flex: 1 1 calc(33.333% - 11px);
+    background-color: whitesmoke;
+    padding: 20px
+}
+
 .SubmitCard {
-    height: 10vh;
-    width: 10vw;
+    height: 20vh;
+    width: 50vw;
+    font-size: 5vh;
 }
 
 .FeedCard {

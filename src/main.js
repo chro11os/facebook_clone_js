@@ -8,7 +8,7 @@ function DisplayPost(postText) {
     const newPost = document.createElement('p');
     newPost.textContent = postText;
     if (feed) {
-       feed.prepend(newPost); 
+       feed.prepend(newPost);
     }
     input.value = "";
 }

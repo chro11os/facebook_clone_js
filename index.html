@@ -11,23 +11,33 @@
 <body>
     <div id="app"></div>
     <script type="module" src="/src/main.js"></script>
-    <div class="SubmitCard">
-        <div class="text-brand-offwhite bg-brand-accent text-sm text-shadow-gray-900 text-center">
-            <div class="text-lg">
-                <input type="text" id="userInput" placeholder="Type Something...">
-            </div>
+    <div class="grid-container">
+        <div clas="grid-item">
+            <div class="SubmitCard">
+                <div class="text-brand-offwhite bg-brand-accent text-sm text-shadow-gray-900 text-center">
+                    <div class="text-lg">
+                        <input type="text" id="userInput" placeholder="Type Something...">
+                    </div>
 
-            <div class="text-brand-offwhite text-sm text-shadow-gray-900 hover:text-black">
-                <button id="submitBtn">Post</button>
+                    <div class="text-brand-offwhite text-sm text-shadow-gray-900 hover:text-black">
+                        <button id="submitBtn">Post</button>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
 
-    <div class="FeedCard">
-        <div class="bg-brand-accent text-brand-offwhite text-center">
-            <div id="displayFeed"></div> 
+        <div class="grid-item">
+            <div class="FeedCard">
+                <div class="bg-brand-accent text-brand-offwhite text-center">
+                    <div id="displayFeed"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="grid-item">
+
+        </div>
     </div>
 </body>
 
 </html>
-
