@@ -22,4 +22,8 @@ function EnterAndSubmitPost() {
     });
 };
 
+function NavigationBar() {
+    
+}
+
 EnterAndSubmitPost();

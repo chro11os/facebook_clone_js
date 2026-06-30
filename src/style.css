@@ -28,17 +28,29 @@ html, body {
 .grid-item {
     flex: 1 1 calc(33.333% - 11px);
     background-color: whitesmoke;
-    padding: 20px
+    padding: 20px;
 }
 
 .SubmitCard {
-    height: 20vh;
-    width: 50vw;
-    font-size: 5vh;
+    width: 100%;
+    min-height: 150px;
+    font-size: 1.25rem;
 }
 
 .FeedCard {
-    height: 20vh;
-    width: 50vw;
-    font-size: 5vh;
+    width: 100%;
+    min-height: 200px;
+    font-size: 1.25rem;
+}
+
+.ChatList {
+    height: 40vh;
+    width: 20vw;
+    font-size: 2vh;
+}
+
+.navbar {
+    height: 5vh;
+    width: fit-content;
+    justify-content: center;
 }
