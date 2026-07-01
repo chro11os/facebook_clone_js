@@ -50,7 +50,16 @@ html, body {
 }
 
 .navbar {
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    background-color: var(--color-brand-accent2);
+    align-items: center;
+    position:fixed;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    padding: 10px;
     height: 5vh;
     width: fit-content;
-    justify-content: center;
 }
+
